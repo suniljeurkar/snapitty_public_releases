@@ -1,0 +1,60 @@
+Snapitty Software License
+Version 0.2.0
+
+Copyright (c) 2026 Snapitty. All rights reserved.
+
+This license is intended to make Snapitty free and easy to adopt while
+protecting the application, brand, installer, and distribution boundaries.
+It is suitable for a privately distributed proprietary repository and installer.
+
+1. Free Use
+
+You may install and use the free version of Snapitty at no cost for personal,
+educational, internal business, and commercial QA work.
+
+2. User Data
+
+Screenshots, notes, exports, run folders, and generated evidence files created
+with Snapitty belong to the user or organization that created them. Snapitty may
+store helper metadata, such as run manifests, to help reopen and export that
+work.
+
+3. Paid Features
+
+Some advanced features may require a paid plan, subscription, license key, or
+separate written agreement. Examples may include archived workspace rebuild,
+advanced run history, audit validation, bulk import, signed archive bundles,
+team license management, and priority support.
+
+4. Restrictions
+
+Without prior written permission, you may not:
+
+- Modify, patch, reverse engineer, or tamper with Snapitty to bypass paid
+  features, licensing, or usage controls.
+- Rebrand, white-label, resell, sublicense, rent, lease, or commercially host
+  Snapitty as a competing product.
+- Repackage or redistribute altered Snapitty binaries or installers.
+- Remove or alter Snapitty copyright, license, trademark, or attribution notices.
+- Use the Snapitty name, logo, or branding to imply endorsement of a modified or
+  unrelated product.
+
+5. Redistribution
+
+You may share the official unmodified Snapitty installer internally within your
+organization. Public redistribution, mirroring, bundling, or packaging for third
+parties requires written permission unless Snapitty publishes a separate
+redistribution policy.
+
+6. No Warranty
+
+Snapitty is provided "as is", without warranty of any kind. To the maximum
+extent permitted by law, the authors and copyright holders are not liable for
+any damages or losses arising from use of the software.
+
+7. Not Open Source
+
+This freeware license allows free commercial use, but it does not grant open
+source modification and redistribution rights. Do not describe Snapitty as open
+source unless it is released separately under an OSI-approved open source
+license.
