@@ -2,6 +2,27 @@
 
 All notable changes to Snapitty should be recorded in this file.
 
+## [0.2.1] - 2026-04-25
+
+### Changed
+
+- Bumped release version to `0.2.1`.
+- Corrected installer and shortcut references to `Snapitty.exe`.
+- Updated public release documentation.
+- Improved New Batch Run wizard theme consistency.
+
+### Fixed
+
+- Fixed inconsistent app and uninstall icon handling.
+- Fixed low-contrast New Batch Run wizard header text.
+- Removed deprecated UTC timestamp warnings.
+
+### Notes
+
+- Windows may cache old app icons after reinstall. Restart Explorer or refresh the icon cache if needed.
+- Snapitty remains freeware for personal, internal, and commercial QA use, but is not open source.
+
+
 ## [0.2.0] - 2026-04-25
 
 ### Added
