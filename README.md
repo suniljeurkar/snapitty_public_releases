@@ -1,77 +1,73 @@
-# Snapitty
+# Snapitty Public Releases
 
-Snapitty is a Windows desktop application for QA evidence capture.
+This repository is used only for public Snapitty release files.
 
-It is built for testers who need to:
+## What Snapitty Is
 
-- capture full-screen or cropped snaps quickly
+Snapitty is a Windows desktop tool for QA evidence capture.
+
+It is designed for testers who need to:
+
+- capture full or cropped snaps during manual testing
 - organise evidence by batch run and test case
 - add notes while executing
-- review and retake snaps without rebuilding a case
-- export the result as Word evidence packs
+- retake, edit, and manage evidence quickly
+- export the final result as Word evidence packs
 
-Snapitty is intentionally focused. It is not a full test management product. It works alongside Jira, TestRail, Zephyr, spreadsheets, or any existing QA workflow.
+Snapitty is focused on execution evidence. It is not a full test management system.
+
+## What This Repository Contains
+
+This repository may contain:
+
+- Windows installer files
+- release notes
+- changelog history
+- license file
+- basic usage and distribution notes
 
 ## Current Release
 
-- App version: `0.2.0`
-- Installer script version source: [installer/Snapitty.iss](installer/Snapitty.iss)
-- Packaged installer output pattern: `Snapitty-Setup-0.2.0.exe`
+- Version: `0.2.1`
+- Platform: Windows x64
+- Installer: `Snapitty-Setup-0.2.1.exe`
 
-Release history is tracked in [CHANGELOG.md](CHANGELOG.md).
+## Install
 
-## Tech Stack
+1. Download the latest `Snapitty-Setup-<version>.exe`
+2. Run the installer
+3. Launch Snapitty from the Start menu or desktop shortcut
 
-- Python 3.14
-- PySide6 for the desktop UI
-- SQLite for local storage
-- Pillow and MSS for capture and image handling
-- python-docx for export generation
-- PyInstaller for packaging
-- Inno Setup for the Windows installer
+## Main Features in Current Builds
 
-## Main Capabilities
+- batch run workspace
+- floating capture window
+- full snap and cropped snap capture
+- clipboard paste into evidence
+- note-only steps
+- retake, edit, and delete for steps and snaps
+- multiple snaps under one step
+- run library and reopened archived runs
+- DOCX export in split, combined, and hybrid formats
+- dark theme and system/light theme support
 
-- Batch run workspace with multiple tabs
-- Floating capture window
-- Full snap and cropped snap capture modes
-- Clipboard image paste into evidence
-- Note-only steps
-- Step retake, edit, reorder, and delete
-- Multi-snap support under one step
-- Run Library and archived workspace access
-- DOCX export in split, combined, and hybrid modes
-- Dark theme plus system/light theme support
+## Documentation
 
-## Requirements
+See these files in this release repository when available:
 
-Development and packaging are currently aimed at Windows.
-
-Recommended environment:
-
-- Windows 11
-
-## App Documentation
-
-User-facing documentation lives here:
-
-- [docs/USER_GUIDE.md](docs/USER_GUIDE.md)
-- [docs/FUTURE_RELEASES.md](docs/FUTURE_RELEASES.md)
+- `CHANGELOG.md`
+- `LICENSE.txt`
 
 ## License
 
 Snapitty is not open source.
 
-It is currently positioned as a privately distributed freeware/commercial-use application with protected branding, packaging, and redistribution boundaries.
+This public release repository is for distributing official builds and related release documents only. Source modification, rebranding, altered redistribution, and resale are not permitted without written permission.
 
-See [LICENSE.txt](LICENSE.txt) for the full license.
+See `LICENSE.txt` for full license terms.
 
-Short version:
+## Publisher
 
-- users may use the official app for QA work
-- user-created screenshots and exports belong to the user or organisation
-- source modification, rebranding, altered redistribution, and resale are not permitted without written permission
+Publisher: Sunil Jeurkar
+Product: Snapitty
 
-## Planned Direction
-
-The higher-level product direction is documented in [docs/FUTURE_RELEASES.md](docs/FUTURE_RELEASES.md) and [docs/product_roadmap.md](docs/product_roadmap.md).
