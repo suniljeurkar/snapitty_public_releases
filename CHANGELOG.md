@@ -2,6 +2,30 @@
 
 All notable changes to Snapitty should be recorded in this file.
 
+
+## [0.2.2] - 2026-04-26
+
+### Added
+
+- Added in-app About and Keyboard Shortcuts help with license, technology, and built-by details
+- Added a Did You Know help tab with quick workflow tips
+- Added menu and button access keys for common actions
+- Added a first-use capture tip that explains how to add extra snaps to the current step
+
+### Changed
+
+- Bumped installer/app version to 0.2.2
+- Improved extra snap rows so snap label and capture time stay inline instead of cramped on separate lines
+- Enlarged extra snap rows so thumbnails and row action buttons remain usable
+- Expanded the main menu with File, Capture, Case, and Help actions
+- Added menu bar styling for both dark and system/light themes
+
+### Fixed
+
+- Snap editor now asks whether to save, discard, or cancel when closing with unsaved changes
+- Removed the unthemed blank strip behind run tabs in the dark workspace
+
+
 ## [0.2.1] - 2026-04-25
 
 ### Changed
