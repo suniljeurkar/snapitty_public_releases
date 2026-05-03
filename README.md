@@ -28,9 +28,9 @@ This repository may contain:
 
 ## Current Release
 
-- Version: `0.2.2`
+- Version: `0.2.3`
 - Platform: Windows x64
-- Installer: `Snapitty-Setup-0.2.2.exe`
+- Installer: `Snapitty-Setup-0.2.3.exe`
 
 ## Install
 

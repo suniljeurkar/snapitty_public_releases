@@ -2,6 +2,13 @@
 
 All notable changes to Snapitty should be recorded in this file.
 
+## [0.2.3] - 2026-04-28
+
+### Changed
+
+- Bumped installer/app version to 0.2.3
+- Menu now can be enabled or disabled from the Settings > Appearence 
+- Shortcuts added and can be viewed in About > Keyboard Shortcuts
 
 ## [0.2.2] - 2026-04-26
 
